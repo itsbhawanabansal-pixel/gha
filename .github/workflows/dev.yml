@@ -1,1 +1,10 @@
-# dev workflow
+name: Deploy to DEV
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greet Me!
+        run: echo "Hi"
+      - name: Bye!
+        run: echo 'Bye!'
